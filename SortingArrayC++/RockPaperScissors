@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+using namespace std;
+
+int main()
+{
+    cout << "Welcome to Rock Paper Scissors Game" << endl;
+
+     while (true) {
+        std::cout << "\nPlease choose:\n";
+        std::cout << "1. Rock"<< endl;
+        std::cout << "2. Paper"<< endl;
+        std::cout << "3. Scissors"<< endl;
+        std::cout << "4. Quit"<< endl;
+
+        int Userchoice;
+        cin >> Userchoice;
+    }
+}
+
