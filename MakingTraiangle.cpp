@@ -24,6 +24,11 @@
 
 using namespace std;
 
+
+const char ROCK = 'r';
+const char PAPER = 'p';
+const char SCISSORS = 's';
+
 char getUserChoice() {
     char choice;
     cout << "Welcome, Please choose a following option: " << endl;
