@@ -20,8 +20,7 @@
 
 
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
+
 
 using namespace std;
 
@@ -42,7 +41,7 @@ char getUserChoice() {
 
 int main()
 {
-
+    getUserChoice();
 }
 
 
